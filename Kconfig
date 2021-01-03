@@ -1,0 +1,8 @@
+menuconfig LUA
+	bool "Lua library support"
+	help
+	  Lua scripting language.
+
+if CONFIG_LUA
+
+endif
