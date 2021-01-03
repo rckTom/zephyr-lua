@@ -3,6 +3,38 @@ menuconfig LUA
 	help
 	  Lua scripting language.
 
-if CONFIG_LUA
+if LUA
+
+config LUA_LOADLIB
+	bool "Load library"
+
+config LUA_BASELIB
+	bool "Base library"
+
+config LUA_IO_LIB
+	bool "Integrate io library"
+	help
+	  This option enables the io library.
+
+config LUA_STRLIB
+	bool "String library"
+
+config LUA_COROLIB
+	bool "Coroutine library"
+
+config LUA_TABLIB
+	bool "Table library"
+
+config LUA_OSLIB
+	bool "OS library"
+
+config LUA_MATHLIB
+	bool "Math library"
+
+config LUA_DBLIB
+	bool "Debug library"
+
+config LUA_UTF8LIB
+	bool "UTF8 library"
 
 endif
