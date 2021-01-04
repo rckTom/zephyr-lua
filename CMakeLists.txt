@@ -1,7 +1,7 @@
 if(CONFIG_LUA)
 set(ZEPHYR_CURRENT_LIBRARY lua)
 zephyr_library()
-add_definitions("-DLUA_USE_C89")
+zephyr_compile_definitions(LUA_USE_C89)
 zephyr_include_directories(./src)
 zephyr_library_sources(
 	./src/lapi.c
