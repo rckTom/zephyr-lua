@@ -1,1 +1,1 @@
-This module integrates Lua 5.4.2, released on 13 Nov 2020, into zephyr.
+This module integrates Lua 5.4.3, released on 15 March 2021, into zephyr.
